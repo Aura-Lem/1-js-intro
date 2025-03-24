@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "array": "node --watch ./js/6-array.js",
     "if": "node --watch ./js/5-if.js",
     "boolean": "node --watch ./js/4-boolean.js",
     "function": "node --watch ./js/3-function.js",
@@ -12,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aura",
   "license": "ISC",
   "description": ""
 }
