@@ -11,7 +11,7 @@ NUMBER - skaiciai
 - Infinity, -Infinity
 - NaN (skaiciaus tipo klaida)
 
-Aritmetiniai operatoriai: +, -, *, /, ** (kelimas laipsniu), % (dalybos liekana)
+Aritmetiniai operatoriai: +, -, *, /, ** (kelimas laipsniu), % (dalybos liekana), k++, ++k
 
 Aritmetiniai priskirymo operatoriai: +=, -=, *=, /=, **= (kelimas laipsniu), %= (dalybos liekana)
 */

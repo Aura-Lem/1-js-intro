@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "typeof": "node --watch ./js/7-typeof.js",
     "array": "node --watch ./js/6-array.js",
     "if": "node --watch ./js/5-if.js",
     "boolean": "node --watch ./js/4-boolean.js",
@@ -10,6 +11,9 @@
     "string": "node --watch ./js/2-string.js",
     "number": "node --watch ./js/1-number.js",
     "js": "node ./index.js",
+    "marks-average": "node --watch ./task/marks-average.js",
+    "text-size": "node --watch ./task/text-size.js",
+    "adult": "node --watch ./task/adult.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
