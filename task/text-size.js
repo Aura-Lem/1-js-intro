@@ -69,7 +69,7 @@ function textSize4(text) {
         
  }
 
- function textSize5(text) {
+function textSize5(text) {
     if (text.length >= 20) {
         return `Ilgas tekstas is ${text.length} simboliu.`;}
     if (text.length > 0 && text.length < 10) 
