@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "for": "node --watch ./js/8-for.js",
     "typeof": "node --watch ./js/7-typeof.js",
     "array": "node --watch ./js/6-array.js",
     "if": "node --watch ./js/5-if.js",
@@ -11,6 +12,7 @@
     "string": "node --watch ./js/2-string.js",
     "number": "node --watch ./js/1-number.js",
     "js": "node ./index.js",
+    "interval-sum": "node --watch ./task/interval-sum.js",
     "marks-average": "node --watch ./task/marks-average.js",
     "text-size": "node --watch ./task/text-size.js",
     "adult": "node --watch ./task/adult.js",
