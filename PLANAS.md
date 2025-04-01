@@ -1,13 +1,13 @@
 # JavaScript
 
-- kintamieji (atminties lasteles, duomenu tipai):
+- ~~kintamieji~~ (atminties lasteles, duomenu tipai):
   ~~- tekstas (string)~~
   ~~- skaiciai (number)~~
   ~~- logines reiksmes (boolean)~~
-  - sarasas (array)
-  - objektas (object)
-  - null
-  - undefined
+  ~~- sarasas (array)~~
+  ~~- objektas (object)~~
+  ~~- null~~ (reiksme neegzistuoja, bet mes ketiname ja gauti/paskaiciuoti)
+  ~~- undefined~~
 - funkcijos (perpanaudojamas kodo blokas/logika):
   ~~- "paprasta"~~
   - rodykline
