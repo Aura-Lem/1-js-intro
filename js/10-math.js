@@ -101,5 +101,5 @@ console.log(Math.sqrt(2), 2 ** 0.5);
 console.log(Math.sqrt(13), 13 ** 0.5);
 
 // random --> 
-console.log('\nrandomt');
+console.log('\nrandom');
 console.log(Math.random());
