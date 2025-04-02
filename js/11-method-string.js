@@ -149,3 +149,4 @@ console.log('pomidoras'.slice(2, 5));
 console.log('pomidoras'.slice(0, -1)); // nupjauna paskutine raide.
 console.log('pomidoras'.slice(-4));
 console.log('pomidoras'.slice(-6, -2));
+

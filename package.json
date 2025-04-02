@@ -15,6 +15,7 @@
     "string": "node --watch ./js/2-string.js",
     "number": "node --watch ./js/1-number.js",
     "js": "node ./index.js",
+    "valid-name": "node --watch ./task/valid-name.js",
     "digit-count": "node --watch ./task/digit-count.js",
     "biggestNumber": "node --watch ./task/biggestNumber.js",
     "interval-sum": "node --watch ./task/interval-sum.js",
