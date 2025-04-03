@@ -63,3 +63,30 @@ console.log(parseFloat('55.66.77')); // --> 55.66
 console.log(parseFloat('-5-5')); // --> -5
 console.log(parseFloat('--55')); // --> NaN
 console.log(parseFloat('+5+5')); // --> 5
+
+const a = 12.3456789;
+console.log(typeof a);
+console.log(typeof typeof a);   // a = string; typeof a = number, o number reiksme yra stringas.
+
+const b = a.toFixed(4);
+console.log(b);
+console.log(typeof b); // b = string.
+
+const c = parseFloat(b);
+console.log(c);
+console.log(typeof c);  // number
+
+console.log(12.3456789.toFixed(7));
+console.log(12.3456789.toFixed(6));
+console.log(12.3456789.toFixed(5));
+console.log(12.3456789.toFixed(4));
+console.log(12.3456789.toFixed(3));
+console.log(12.3456789.toFixed(2));
+console.log(12.3456789.toFixed(1));
+console.log(12.3456789.toFixed(0));
+
+console.log(3.14.toFixed(0));
+console.log(3.14.toFixed(1));
+console.log(3.14.toFixed(2));
+console.log(3.14.toFixed(3));
+
