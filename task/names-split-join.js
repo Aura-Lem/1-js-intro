@@ -26,7 +26,7 @@ function correctSentence(text) {
         const firstLetter = name[0].toUpperCase();
         const restName = name.slice(1);
         const newName = firstLetter + restName;
-        // const newName = name[o].toUpperCase() + name.slice(1);
+        // const newName = name[0].toUpperCase() + name.slice(1);
         names[i] = newName;
     }
 
