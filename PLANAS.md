@@ -13,7 +13,7 @@
   - rodykline
   - metodai:
     ~~- string methods~~
-    - number methods
+    - ~~number methods~~
     - ~~Math biblioteka~~
     - array methods
     - object methods
