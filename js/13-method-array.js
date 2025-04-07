@@ -119,3 +119,14 @@ const c111 = c1.concat(c1, c1);
 console.log(c111);
 
 console.clear();
+
+const h = [11, 22, 33, 44, 55];
+
+// nurodo nuo kurios vietos istrinti reiksmes is masyvo.
+h.splice(4);
+console.log(h);
+
+// nurodo nuo kur ir kiek reiksmiu istrinti.
+h.splice(0, 1);
+console.log(h);
+
