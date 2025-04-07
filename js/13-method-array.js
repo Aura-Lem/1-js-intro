@@ -58,4 +58,41 @@ for (let i = 0; i < n1.length; i++) {
 
 console.log(n12);
 
+console.clear();
+
+const numbers2 = [10, 2, 8, 4, 6];
+console.log(numbers2);
+
+// pasalina paskutini nari is arejaus. Gali grazinti reiksme, kuria pasalina.
+numbers2.pop();
+console.log(numbers2);
+
+const g1 = numbers2.pop();
+console.log(numbers2, g1);
+
+// itraukia nari i arejaus prieki.
+numbers2.unshift(1);
+console.log(numbers2);
+
+// pasalina pirma nari is arejaus.
+numbers2.shift();
+console.log(numbers2);
+
+const g2 = numbers2.shift();
+console.log(numbers2, g1);
+
+// randa reiksme sarase.
+const magic = [11, 22, 33, 44, 55];
+console.log(magic.includes(5));
+console.log(magic.includes(55));
+
+// randa kintamaji sarase ir nurodo jo vieta.
+console.log(magic.indexOf(5));
+console.log(magic.indexOf(55));
+
+const texts = ['agurkas', 'pomidoras', 'svogunas', 'paprika'];
+// Reikalingi produktai: a, b, c, d.
+const products = `Reikalingi produktai: ${texts.join(', ')}.`;
+console.log(products);
+
 
