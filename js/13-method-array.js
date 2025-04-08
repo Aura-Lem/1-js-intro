@@ -213,3 +213,4 @@ console.log(p8);
 const texts5 = ['labas', '', 'rytas', '', 'Lietuva'];
 const text5Updated = texts5.filter(t => t.length > 0);
 console.log(text5Updated);
+
