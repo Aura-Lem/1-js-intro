@@ -43,3 +43,7 @@ console.log(p123);
 const p4 = {d: 4, ...p3};
 console.log(p4);
 
+const marks = [10, 2, 8, 4, 6];
+const [first, second, ...rest] = marks;
+
+console.log(first);

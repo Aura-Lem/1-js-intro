@@ -227,3 +227,4 @@ console.log(s1);
 
 const s2 = String.fromCharCode(2600);
 console.log(s2);
+
